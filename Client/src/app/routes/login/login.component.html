@@ -2,7 +2,7 @@
 <div class="init">
   <div class="login">
     <label for="">Ingresa tu nombre:</label>
-    <input type="text" />
+    <input type="text" [formControl]="username" />
     <button class="button" (click)="toChat()">Ir al chat</button>
   </div>
 </div>
