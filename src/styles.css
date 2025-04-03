@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(30, 32, 30);
+  background-color: rgb(238, 238, 238); /* Fondo claro */
   color: rgb(236, 223, 204);
   display: flex;
   justify-content: center;

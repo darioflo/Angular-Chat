@@ -1,1 +1,6 @@
-<p>message works!</p>
+<div class="conversation">
+  <div class="msg" [ngClass]="myMessage() ? 'm-right' : ''">
+    <div class="user" [ngClass]="myMessage() ? 'u-right' : 'u-left'">D</div>
+    <p [ngClass]="myMessage() ? 'right' : 'left'">Hola</p>
+  </div>
+</div>

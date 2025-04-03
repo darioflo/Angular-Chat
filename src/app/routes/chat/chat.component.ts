@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { Route, Router } from '@angular/router';
+import { MessageComponent } from '../../components/message/message.component';
 
 @Component({
   selector: 'app-chat',
-  imports: [],
+  imports: [MessageComponent],
   templateUrl: './chat.component.html',
   styleUrl: './chat.component.css',
 })

@@ -1,0 +1,75 @@
+.conversation {
+  width: 100vw;
+  height: 75vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: rgb(238, 238, 238); /* Fondo claro principal */
+}
+
+.msg {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.user {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: rgb(104, 109, 118); /* Fondo del avatar */
+  color: rgb(238, 238, 238); /* Texto claro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.right,
+.left {
+  max-width: 70%;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  line-height: 1.5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.right {
+  align-self: flex-end; /* Posiciona el mensaje a la derecha */
+  background-color: rgb(220, 95, 0); /* Fondo del mensaje derecho */
+  color: rgb(238, 238, 238); /* Texto claro */
+  margin-left: 91%;
+}
+
+.left {
+  align-self: flex-start; /* Posiciona el mensaje a la izquierda */
+  background-color: rgb(55, 58, 64); /* Fondo del mensaje izquierdo */
+  color: rgb(238, 238, 238); /* Texto claro */
+  margin-right: 91%;
+}
+
+.u-right {
+  align-self: flex-end; /* Posiciona el avatar a la derecha */
+  margin-left: auto; /* Empuja el avatar hacia la derecha */
+  background-color: rgb(220, 95, 0); /* Fondo del avatar derecho */
+}
+
+.u-left {
+  align-self: flex-start; /* Posiciona el avatar a la izquierda */
+  margin-right: auto; /* Empuja el avatar hacia la izquierda */
+  background-color: rgb(55, 58, 64); /* Fondo del avatar izquierdo */
+}
+
+.m-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
